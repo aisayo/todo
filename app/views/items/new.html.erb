@@ -1,0 +1,8 @@
+<%= form_tag item_path do %>
+<label>Item Name</label>
+<%= text_field_tag:"item[name]"%>
+<label>Item Description</label>
+<%= text_field_tag:"item[description]"%>
+<%= submit_tag "Submit Item"%>
+
+<% end %>
